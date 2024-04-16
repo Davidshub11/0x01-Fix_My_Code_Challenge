@@ -15,7 +15,7 @@ class Square():
         return self.width * self.width
 
     def perimeter_of_my_square(self):
-        return (self.width * 4)
+        return (self.width * 4) + (self.height *2)
 
     def __str__(self):
         return "{}/{}".format(self.width, self.height)
